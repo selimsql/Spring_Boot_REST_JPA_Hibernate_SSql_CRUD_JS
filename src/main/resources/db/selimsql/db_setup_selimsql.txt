@@ -1,0 +1,16 @@
+============================================================================================
+=== Spring SpringMvcHibernateJPASSqlUserCRUDExample application - SelimSQL Configuration ===
+============================================================================================
+
+@author Zulkif Guven
+
+--------------------------------------------------------------------------
+
+Description for building SelimSql Database:
+
+1) Download and install the SelimSQL database developer;
+   which can be found here: https://selimsql.com/#download/SSqlDevClient
+
+
+2) Create the application database and user by executing the "db/selimsql/initDB.sql"
+   and "db/selimsql/populateDB.sql" scripts.

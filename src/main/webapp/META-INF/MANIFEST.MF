@@ -1,0 +1,9 @@
+Manifest-Version: 1.0.1
+Implementation-Title: SpBootRestV1
+Implementation-Version: 3.1.final
+Built-By: yilmaz.ay, zulkif.guven
+Implementation-Vendor-Id: selimsql
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/Kys/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: SelimSql

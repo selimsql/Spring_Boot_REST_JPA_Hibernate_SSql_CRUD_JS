@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SpBoot REST App.</title>
+
+	<meta charset="Utf-8">
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<meta http-equiv="Cache-Control" content="must-revalidate"/>
+	<meta http-equiv="Pragma"        content="no-cache"/>
+	<meta http-equiv="Expires"       content="-1"/>
+
+	<meta http-equiv='Content-Type'  content='text/html; charset=UTF-8'/>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/myStyle.css">
+
+	<script src="js/Common.js"></script>
+	<script src="js/Home.js"></script>
+
+	<script src="js/UserList.js"></script>
+	<script src="js/UserAdd.js"></script>
+	<script src="js/UserEdit.js"></script>
+</head>
+
+<body onload="fixContentDiv()">
+	<div class="containerHeader">
+		<h3>SpringBoot Rest Application</h3>
+	</div>
+
+	<ul class="topMenu">
+		<li>
+			<button class="buttonTop" onclick="renderHomePage()">Home</button>
+		</li>
+		<li>
+			<button class="buttonTop" onclick="renderUserList(contentDiv)">User List</button>
+		</li>
+		<li class="right">
+			<button class="buttonTop" onclick="alert('SpringBoot Rest Application, Version:1.0')">About</button>
+		</li>
+	</ul>
+
+	<div id="content" class="containerBody">
+		Wellcome
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+
+.containerHeader {
+	width: 100%;
+	height: 50pt;
+	color: #ffffff;
+	padding: 15px;
+	--background-color: #949cfa;
+	--background-color: #499cfa;
+	background-color: rgb(10, 150, 150);
+}
+
+ul.topMenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(10, 107, 107);
+}
+
+ul.topMenu li {
+	float: left;
+}
+
+ul.topMenu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.topMenu li:hover {
+	background-color: #00cc6d;
+}
+
+ul.topMenu li.right {
+	float: right;
+}
+
+@media screen and (max-width: 600px) {
+	ul.topMenu li.right,
+	ul.topMenu li {
+		float: none;
+	}
+}
+
+.containerBody {
+	width: 100%;
+	height: 100%;
+	--margin-top: 5px;
+	padding: 10pt;
+	--background-color: lightblue;
+	--background-color: lightgray;
+	--background-color: lightsteelblue;
+	background-color: lightyellow;
+	display: table;
+}
+
+.buttonTop {
+	background-color: #4CAF50;	/* Green */
+	border: 1px solid green;
+	color: white;
+	padding: 10px 20px;
+	margin-left: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.buttonTop:hover {
+	background-color: yellowgreen;
+}
+
+
+.tableHover {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableHover td, .tableHover th {
+	--border:1px solid #ddd!important;
+    border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.tableHover th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: rgb(12, 83, 12);
+    color: white;
+}
+
+.tableHover tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tableHover tr:hover {
+	background-color: #ddd;
+}
